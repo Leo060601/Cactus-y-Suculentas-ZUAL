@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="..//Imagenes/Logo_Transparente.png" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>Cactus y Suculentas</title>
+  <link rel="stylesheet" href="..//CSS//Style.css">
+      <title>Cactus y Suculentas ZUAL</title>
+</head>
+  <body>
+
+    <header>
+      <div class="contenedor-imagen-texto">
+        <img class="imagen-cuadrada" src="..//Imagenes/dbc2ba04-6d80-42a8-b56b-c00b1a3abd3c.JPG" alt="Logo">
+      </div>
+      <div class="texto-imagen">
+        <nav>
+          <ul>
+            <li><a href="..//HTML/Index.html">Inicio</a></li>
+            <li><a href="..//HTML/Catalago.html">Catálogo</a></li>
+            <li><a href="..//HTML/Contacto.html">Contacto</a></li>
+            <li><a href="..//HTML/Adivina_Suc.html">Juego 1</a></li>
+            <li><a href="..//HTML/Memoria.html">Juego 2</a></li>
+            <li><a href="..//HTML/Cuidado_Suc.html">Juego 3</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="memory-game">
+        <div class="memory-card" data-framework="cactus">
+          <img class="front-face" src="..//Imagenes/back.png">
+          <img class="back-face" src="..//Imagenes/cactus_380.jpg">
+          <img class="front-face" src="..//Imagenes/back.png">
+          <img class="back-face" src="..//Imagenes/cactus_380.jpg">
+        </div>
+        <div class="memory-card" data-framework="succulent">
+          <img class="front-face" src="..//Imagenes/back.png">
+          <img class="back-face" src="..//Imagenes/Caja_250.jpg">
+        </div>
+        <!-- Repite estas dos tarjetas para crear más parejas -->
+        <div class="memory-card" data-framework="cactus">
+          <img class="front-face" src="..//Imagenes/back.png">
+          <img class="back-face" src="..//Imagenes/cactus_380.jpg">
+        </div>
+        <div class="memory-card" data-framework="succulent">
+          <img class="front-face" src="..//Imagenes/back.png">
+          <img class="back-face" src="..//Imagenes/Caja_250.jpg">
+        </div>
+        <div class="memory-card" data-framework="cactus">
+          <img class="front-face" src="..//Imagenes/back.png">
+          <img class="back-face" src="..//Imagenes/cactus_380.jpg">
+        </div>
+        <div class="memory-card" data-framework="succulent">
+          <img class="front-face" src="..//Imagenes/back.png">
+          <img class="back-face" src="..//Imagenes/Caja_250.jpg">
+        </div>
+        <div class="memory-card" data-framework="cactus">
+          <img class="front-face" src="..//Imagenes/back.png">
+          <img class="back-face" src="..//Imagenes/cactus_380.jpg">
+        </div>
+        <div class="memory-card" data-framework="succulent">
+          <img class="front-face" src="..//Imagenes/back.png">
+          <img class="back-face" src="..//Imagenes/Caja_250.jpg">
+        </div>
+      </div>
+      <div class="game-stats">
+        <p>Movimientos: <span id="moves">0</span></p>
+        <p id="game-over-message"></p>
+      </div>
+      <script src="..//JavaScript/Memoria.js"></script>
+      <footer class="pie_pagina">
+        <p>Cactus y Suculentas ZUAL &copy; 2023</p>
+      </footer>
+      <script src="..//JavaScript/Memoria.js"></script>
+    </body>
+</html>

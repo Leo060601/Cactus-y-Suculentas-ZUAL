@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #78ed60;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  section#redes-sociales {
+    background-color: #fff;
+  }
+  
+  section#pagina-web {
+    background-color: #f5f5f5;
+  }
+  
+  section#pedidos {
+    background-color: #fff;
+  }
+  
+  section h2 {
+    color: #7dbf8e;
+  }
+  
+  section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  section ul li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  section ul li a {
+    color: #7dbf8e;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #7dbf8e;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  section ul li a:hover {
+    background-color: #7dbf8e;
+    color: #fff;
+  }
+  
+  section#pedidos p {
+    margin-bottom: 20px;
+  }
+  
+  section#pedidos a.boton-whatsapp {
+    background-color: #25D366;
+    color: #fff;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contenedor-imagen-texto {
+    clear: both;
+    overflow: hidden;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+  }
+  
+  .imagen-cuadrada {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+  }
+  

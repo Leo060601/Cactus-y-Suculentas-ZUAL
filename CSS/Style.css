@@ -131,6 +131,19 @@ main {
   margin: 20px auto;
   padding: 20px;
   margin-top: 120px;
+  box-sizing: border-box;
+}
+
+/* Ajuste de imágenes en dispositivos móviles */
+@media (max-width: 480px) {
+  .catalogo-links .catalogo-imagen-container {
+    flex-direction: column;
+  }
+
+  .catalogo-links .imagen-item {
+    width: 100%;
+    margin: 10px;
+  }
 }
 
 .hero {
